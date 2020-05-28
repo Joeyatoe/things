@@ -9,4 +9,4 @@ client.on('message', (message) => {
   he.innerHTML = message.content;
 });
 
-client.login('NjgxMDIxMjQ1NTk2MzY4OTQ0.Xs40fQ.rXFu4xBQNn_GstbTuYj_h7XLpr8')
+client.login('token')
