@@ -6,3 +6,7 @@ body {
   background-color: #231815;
   color: #DCDDDD
 }
+
+.author_icon {
+  width: 100px;
+}
