@@ -7,6 +7,7 @@ client.once('ready', () => {
 });
 client.on('message', (message) => {
   he.innerHTML = message.content;
+  document.querySelector("#icon").setAttribute("src", message.author.avatarURL);
 });
 
-client.login('token')
+client.login('token');
